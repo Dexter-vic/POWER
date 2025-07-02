@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+<script>
+    const number1 = prompt("Enter First Number");
+    console.log("FirstNumber:", number1);
+
+    const operator = prompt("Enter Oparator (+-/*)");
+    console.log("Oparator:",operator);
+
+    const number2 = prompt("Enter second Number");
+    console.log("secondNumber:", number2);
+     
+    if(operator==="+"){
+        let result  = Number(number1) + Number(number2)
+        alert(result)
+    }
+    else if (operator==="-"){
+        let result = Number(number1) - Number(number2)
+        alert(result)
+    }
+    else if (operator==="/"){
+        let result = Number(number1) / Number(number2)
+        alert(result)
+    }
+    else if (operator==="*"){
+        let result = Number(number1) * Number(number2)
+        alert(result)
+    }
+    
+</script>
+</body>
+</html>
