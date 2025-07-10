@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>Registration</b></title>
+    <style>
+         
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            text-align: center;
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+        
+        footer a {
+            color: #ecf0f1;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <link rel ="stylesheet" href="./css/style.css">
+    <p>Registration page....here its where it alls begin</p>
+    <h1>Register</h1>
+        <form>
+            <!--text,password,numbers-->
+            <label for="first_name">First name</label>
+            <input id="first_name" type="text" placeholder="Enter first name"/><br>
+            <label for="second_name">second name</label>
+            <input id="second_name" type="text" placeholder="Enter second name"/><br>
+            <input type="dete_of_birth" type="number" placeholder="Enter_date_of_birth"><br>
+            <input type="email>>>>" placeholder="Enter email"><br>
+            <input type="number" placeholder="Enter number"><br>
+            <label>Gender</label>
+            <select>
+                <option >Male></option>
+                <option> Female</option>
+            </select>
+            <button><b>Register</b></button>
+        </form>
+        <footer>
+            <nav>
+                <a href="registration.html">Registration</a>
+                <a href="login.html">Login</a>
+                <a href="contact.html">contact</a> 
+            </nav>
+        </footer>
+</body>
+</html>
